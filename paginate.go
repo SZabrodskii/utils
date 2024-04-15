@@ -1,4 +1,4 @@
-package main
+package utils
 
 func Paginate[T any](items []T, page int, pageSize int) []T {
 	start := (page - 1) * pageSize
